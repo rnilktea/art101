@@ -1,0 +1,19 @@
+body {
+  background-color: #FCFFD8;
+}
+
+h1 {
+  color: #A7C7E7;
+  font-size: 100px;
+  font-family: cursive;
+}
+
+p {
+  background-color: #CCCCFF;
+  font-family: cursive;
+  text-indent: 20px;
+}
+
+#content {
+  border: dotted 12px #C1E1C1;
+}
