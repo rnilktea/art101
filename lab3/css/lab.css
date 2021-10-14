@@ -1,0 +1,29 @@
+body {
+  background-color: #FCFFD8;
+}
+
+h1 {
+  color: #3f00ff;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+h2 {
+  color: #3f00ff;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+p {
+  color: #3f00ff;
+  background-color: #A7C7E7;
+  font-family: cursive;
+  text-indent: 20px;
+}
+
+#results {
+  color: #3f00ff;
+  background-color: #A7C7E7;
+  font-family: cursive;
+  text-indent: 20px;
+}

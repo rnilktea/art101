@@ -1,0 +1,32 @@
+body {
+  background-color: #FCFFD8;
+}
+
+h1 {
+  color: #A7C7E7;
+  font-size: 100px;
+  font-family: cursive;
+}
+
+h3 {
+  color: #3f00ff;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+p {
+  color: #3f00ff;
+  background-color: #A7C7E7;
+  font-family: cursive;
+  text-indent: 20px;
+}
+
+#my-portrait {
+  border: solid 10px #A7C7E7;
+}
+
+#lab-directory {
+  color: #3f00ff;
+  background-color: #A7C7E7;
+  font-family: cursive;
+}
