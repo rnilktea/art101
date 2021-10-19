@@ -2,6 +2,12 @@ body {
   background-color: white;
 }
 
+h1 {
+  color: #242424;
+  font-size: 30px;
+  font-family: monospace;
+}
+
 h2 {
   color: #242424;
   font-size: 25px;

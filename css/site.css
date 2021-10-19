@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #7a7a7a;
 }
 
 h1 {
@@ -21,6 +21,7 @@ p {
 }
 
 #content {
+  color: white;
   width: 500px;
   min-height: 300px;
   padding: 10px;
