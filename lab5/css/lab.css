@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+}
+
+h2 {
+  color: #242424;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+h3 {
+  color: #242424;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+p {
+  color: #242424;
+  font-family: monospace;
+  text-indent: 30px;
+}
+
+.output {
+  color: #242424;
+  font-family: monospace;
+}
