@@ -29,4 +29,5 @@ p {
 .output {
   color: #242424;
   font-family: monospace;
+  margin: 10px;
 }
