@@ -8,6 +8,7 @@
 function sortUserName() {
 
   var userName = window.prompt("What is your name?: ");
+  userName.toLowerCase();
   console.log("userName =" , userName);
 
   //split string to Array
