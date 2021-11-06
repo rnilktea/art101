@@ -34,3 +34,15 @@ p {
   margin: 10px;
   border: solid 10px #242424;
 }
+
+.changed {
+  color: #3e6e35;
+  font-size: 20px;
+  border: dashed 5px #d7fc03;
+  font-family: fantasy;
+}
+
+.linkbox {
+  color: #242424;
+  font-family: monospace;
+}
