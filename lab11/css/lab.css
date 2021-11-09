@@ -34,3 +34,19 @@ p {
   margin: 10px;
   border: solid 10px #242424;
 }
+
+.linkbox {
+  color: #242424;
+  font-family: monospace;
+}
+
+.sectionbox {
+  border: dashed 1px green;
+  padding: 5px;
+  margin: 5px;
+}
+
+.special {
+  background-color: green;
+  border: single 10px white;
+}
