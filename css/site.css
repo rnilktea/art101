@@ -36,6 +36,7 @@ p {
   margin: 10px;
   border-radius: 25px;
   background-color: white;
+  line-height: 1.5;
 }
 
 #output {
@@ -49,8 +50,12 @@ p {
   margin: 10px;
 }
 
-.linkbox {
+.homelink {
+  text-align: left;
+}
 
+.sourcelink {
+    float: right;
 }
 
 #my-portrait {
