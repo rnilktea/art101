@@ -1,0 +1,10 @@
+.output {
+  color: black;
+}
+
+div#output {
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+}
