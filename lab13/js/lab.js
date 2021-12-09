@@ -4,48 +4,39 @@
  * License: Public Domain
  */
 
- function fizzBuzzBoom(factors, words, limit){
-   var output = "";
+outputEL = document.getElementById("output");
 
-   for (let i = 1; i <= limit; i++){
-     var str = "";
+ //create a FizzBuzz function
+function fizzBuzz() {
+  //loop through number 1 to 200, listing them as you go
+  var result = "";
+  for (let i = 1; i <= 200; i++) {
+    var str = "";
 
-     if (i % factors[0] == 0) {
-       str += words[0];
-     }
-     if (i % factors[1] == 0) {
-       str += words[1];
-     }
-     if (i % factors[2]) {
-       str += words[2];
-     }
+    //if number is multiple of 3, it should print "Fizz"
+    if (i % 3 == 0) {
+      str += "Fizz";
+    }
 
-     if (str == "") {
-       str = i + "<br>";
-     }
-     else {
-       str += "!<br>";
-     }
+    //if number is multiple of 5, it should print "Buzz"
+    if (i % 5 == 0) {
+      str += "Buzz";
+    }
 
-     output += str;
-   }
-   return output;
- }
+    //if number is multople of 7, it should print "Boom"
+    if (i % 7 == 0) {
+      str += "Boom";
+    }
 
- $("output").append("<br><p id = fizzBuzzBoom></p>");
- $("#submit").click(function() {
-   var limit = $("limit").val();
-   var factors = [];
-   var words = [];
+    if (str == "") {
+      str += i + "<br>";
+    }
+    else {
+      str += "!<br>";
+    }
+    result += str;
+  }
+  return result;
+}
 
-   for (let i = 1; i < 4; i++) {
-     factorId = "#f" + i;
-     wordId = "#w" + i;
-     factors.push($(factorId).val());
-     words.push($(wordId).val());
-   }
-
-   $("#fizzbuzz").html("<pre>" + fizzBuzzBoom(factors, words, limit) + "</pre>");
-   $("#fizzbuzz").css("ColumnCount", "10");
-   $("#fizzbuzz").css("fontSize", "14px");
- })
+$(outputEL).html(fizzBuzz());

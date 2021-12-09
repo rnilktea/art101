@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #CCCCFF;
 }
 
 h1 {
@@ -27,10 +27,27 @@ p {
 }
 
 #content {
-  color: white;
+  font-family: monospace;
+  color: #242424;
   width: 800px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
   border: solid 10px #242424;
+  border-radius: 25px;
+}
+
+#output {
+  border-radius: 25px;
+  background-color: white;
+  font-family: monospace;
+  color: #242424;
+  width: 750px;
+  min-height: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.linkbox {
+
 }
