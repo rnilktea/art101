@@ -1,0 +1,59 @@
+body {
+  background-color: #CCCCFF;
+}
+
+h1 {
+  color: #242424;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+h2 {
+  color: #242424;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+h3 {
+  color: #242424;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+p {
+  color: #242424;
+  font-family: monospace;
+  text-indent: 30px;
+  padding: 20px;
+}
+
+#content {
+  font-family: monospace;
+  color: #242424;
+  width: 800px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  background-color: white;
+  line-height: 1.5;
+}
+
+#output {
+  border-radius: 25px;
+  background-color: #CCCCFF;
+  font-family: monospace;
+  color: #242424;
+  width: 750px;
+  min-height: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.homelink {
+  text-align: left;
+}
+
+.sourcelink {
+    float: right;
+}
